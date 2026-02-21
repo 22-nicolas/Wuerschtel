@@ -1,0 +1,40 @@
+﻿footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: rgba(33, 37, 41, 0.5);
+	padding: 20px;
+}
+
+.list-element {
+	border-radius: 10px;
+	border: solid, black, 1px;
+	margin-bottom: 1ch;
+	grid-row-gap: 1px;
+	padding: 1ch;
+}
+
+.total-row {
+	background-color: rgba(33, 37, 41, 0.2);
+}
+
+.center-flex {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.stück-input {
+	max-width: 5ch;
+	max-height: 3ch;
+}
+
+p {
+	margin: 0;
+}
